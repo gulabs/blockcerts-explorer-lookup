@@ -38,8 +38,7 @@
     "test:coverage": "jest --maxWorkers=4 --silent --noStackTrace --coverage",
     "test:coverage:report": "codecov",
     "semantic-release": "semantic-release",
-    "clean:build": "rimraf lib",
-    "prepare": "husky install"
+    "clean:build": "rimraf lib"
   },
   "repository": {
     "type": "git",

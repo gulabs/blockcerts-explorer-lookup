@@ -84,6 +84,26 @@ const BLOCKCHAINS: {[chain in SupportedChains]: IBlockchainObject} = {
       raw: `https://sepolia.etherscan.io/getRawTx?tx=${TRANSACTION_ID_PLACEHOLDER}`
     }
   },
+  [SupportedChains.Ethgusandbox]: {
+    code: SupportedChains.Ethgusandbox,
+    blinkCode: BlinkCodes.eth,
+    name: 'Ethereum G.U.Sandbox',
+    signatureValue: 'ethereumGusandbox',
+    transactionTemplates: {
+      full: `https://sandbox1.japanopenchain.org/tx/${TRANSACTION_ID_PLACEHOLDER}`,
+      raw: `https://sandbox1.japanopenchain.org/getRawTx?tx=${TRANSACTION_ID_PLACEHOLDER}`
+    }
+  },
+  [SupportedChains.Ethjoc]: {
+    code: SupportedChains.Ethjoc,
+    blinkCode: BlinkCodes.eth,
+    name: 'Ethereum Japan Open Chain',
+    signatureValue: 'ethereumJoc',
+    transactionTemplates: {
+      full: `https://mainnet.japanopenchain.org/tx/${TRANSACTION_ID_PLACEHOLDER}`,
+      raw: `https://mainnet.japanopenchain.org/getRawTx?tx=${TRANSACTION_ID_PLACEHOLDER}`
+    }
+  },
   [SupportedChains.Mocknet]: {
     code: SupportedChains.Mocknet,
     blinkCode: BlinkCodes.mocknet,
