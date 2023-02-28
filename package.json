@@ -1,6 +1,6 @@
 {
   "name": "@blockcerts/explorer-lookup",
-  "version": "0.0.0-dev",
+  "version": "1.0.0",
   "description": "A low level blockchain explorers lookup",
   "main": "lib/cjs",
   "module": "lib/esm",
